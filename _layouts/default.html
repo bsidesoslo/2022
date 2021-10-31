@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+    <body id="page-top" class="index">
+    {% include navigation.html %}
+    {% if site.site_features.cfp %}
+    {% include cfp.html %}
+    {% endif %}
+    {% if data.speakers %}
+    {% include speakers.html %}
+    {% endif %}
+    {% if site.site_features.speakers %}
+    {% include talks.html %}
+    {% endif %}
+    {% include sponsors.html %}
+    {% include about.html %}
+    {% include team.html %}
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+    </body>
+</html>
