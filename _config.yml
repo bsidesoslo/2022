@@ -37,6 +37,8 @@ exclude:
 - LICENSE
 - Dockerfile
 - CNAME
+- CODE_OF_CONDUCT.md
+  
 
 menu:
 - title: CFP
