@@ -12,6 +12,8 @@ twitter_username: OsloBSides
 youtube_channel: https://www.youtube.com/channel/UC6kTOacrQTu1ahmRCvXhhrA 
 youtube_livestream: "#"
 
+ticket_sale_url: https://www.deltager.no/event/Bsidesoslo2022
+
 cfp:
   form: https://docs.google.com/forms/d/1uJlNye9siMFAV6OIANMIKEU8lKJOZSp6uuOW0d4rcuY
   deadline: "Feb 27th, 2022 23:59 CET"
@@ -41,6 +43,8 @@ exclude:
   
 
 menu:
+- title: Tickets
+  url: https://www.deltager.no/event/Bsidesoslo2022
 - title: CFP
   url: "/#cfp"
 - title: Sponsors
