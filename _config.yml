@@ -45,8 +45,6 @@ exclude:
 menu:
 - title: Tickets
   url: https://www.deltager.no/event/Bsidesoslo2022
-- title: CFP
-  url: "/#cfp"
 - title: Sponsors
   url: "/#sponsors"
 - title: About
@@ -55,7 +53,7 @@ menu:
   url: "/code-of-conduct"
 
 site_features:
-  cfp: true
+  cfp: false
   speakers: false
 
 
