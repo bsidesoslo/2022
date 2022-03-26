@@ -206,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.primary }};
 }
 
-.navbar-default .nav li a {
+.navbar-default .nav li a, .header-text {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 400;
@@ -215,6 +215,12 @@ fieldset[disabled] .btn-xl.active {
     -moz-transition: all ease .35s;
     transition: all ease .35s;
     color: #fff;
+}
+
+#conference-info{
+    display: inline-block;
+    padding-left: 10px; 
+    display: none;
 }
 
 .navbar-default .nav li a:hover,
@@ -232,7 +238,7 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 10px 0;
         border: 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
@@ -339,7 +345,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -720,4 +726,8 @@ section h3.section-subheading.sponsor-tier {
 
 #program ul {
   list-style: none;
+}
+
+section#conference div.row{
+    margin-top:40px;
 }
