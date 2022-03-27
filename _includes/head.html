@@ -10,11 +10,11 @@
   {% if page.collection == 'talks' -%}
   <meta property="og:title" content="{{ site.title }} on {{ site.date }} at Vulkan Arena: &#34;{{page.title }}&#34;" />
   <meta property="og:description" content="By: {{ page.speakers | map: "name" | join: ", " }}. {{ page.content | strip_html | truncatewords: 30}}" />
-  <meta property="og:image" content="img/speakers/twittercards/{{ page.card }}" />
+  <meta property="og:image" content="{{ "img/speakers/twittercards/" | append: page.card | absolute_url }}" />
   {% else -%}
   <meta property="og:title" content="{{ site.title }} on {{ site.date }} at Vulkan Arena {%- if page.title %} - {{ page.title }}{% endif %}" />
   <meta property="og:description" content="{{ site.description }}" />
-  <meta property="og:image" content="/img/BSidesDigitalEdition.png" />
+  <meta property="og:image" content="{{ "img/BSidesDigitalEdition.png" | absolute_url }}" />
   {% endif -%}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bsidesoslo.no{%if page.url %}{{ page.url }}{% endif %}" />
@@ -26,11 +26,11 @@
   {% if page.collection == 'talks' -%}
   <meta name="twitter:title" content="{{ site.title }} on {{ site.date }} at Vulkan Arena &#34;{{page.title }}&#34;" />
   <meta name="twitter:description" content="By: {{ page.speakers | map: "name" | join: ", " }}. {{ page.content | strip_html | truncatewords: 30}}" />
-  <meta name="twitter:image" content="/img/speakers/twittercards/{{ page.card }}" />
+  <meta name="twitter:image" content="{{ "img/speakers/twittercards/" | append: page.card | absolute_url }}" />
   {% else -%}
   <meta name="twitter:title" content="{{ site.title }} on {{site.date}} at Vulkan Arena {%- if page.title %} - {{ page.title }}{% endif %}" />
   <meta name="twitter:description" content="{{site.description}}" />
-  <meta name="twitter:image" content=/img/BSidesDigitalEdition.png" />
+  <meta name="twitter:image" content="{{ "img/BSidesDigitalEdition.png" | absolute_url }}" />
   {% endif -%}
   <meta name="twitter:url" content="https://bsidesoslo.no/" />
   
