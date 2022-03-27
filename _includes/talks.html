@@ -16,7 +16,7 @@
             <div class="row">
 	    {%- endif -%}
 	    	{%- for speaker in talk.speakers -%}
-                <div class="col-md-4 col-sm-6 speaker-item">
+                <div class="col-sm-4 speaker-item">
 			<a href="{{ talk.url }}" class="speaker-link">
 			<div class="image" style="background-image: url({{ site.baseurl }}/img/speakers/{{ speaker.image }});" alt="{{ speaker.name }}"></div>
                     <div class="speaker-caption">

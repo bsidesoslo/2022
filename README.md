@@ -15,7 +15,8 @@ Adding speakers is done by creating a markdown file named the same as the title 
 ---
 layout: talks
 title: <Title of talk>
-length: <Length of talk>
+length: <Length of talk as integer>
+card: <Name of the card in img/speakers/twittercards>
 scheduled: <OPTIONAL: Used when program is ready>
 video: <OPTIONAL: Used when presentation is uploaded to YouTube>
 speakers:

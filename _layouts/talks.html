@@ -23,14 +23,14 @@
       {% for speaker in page.speakers %}
       <div class="row speaker-bio">
 	      <!--        <div class="col-md-4 overflow-hidden speaker-image" style="background-image: url({{site.baseurl}}/img/speakers/{{speaker.image}});">-->
-      <div class="col-md-4 overflow-hidden"> 
+      <div class="col-sm-4 overflow-hidden"> 
 	<img class="speaker-image" src="{{site.baseurl}}/img/speakers/{{speaker.image}}" alt="{{speaker.name}}"/>
 
 
         </div>
-        <div class="col-md-8">
+        <div class="col-sm-8">
           <p class="speaker-name">{{ speaker.name }}</p>
-          <p>{{ speaker.bio }}</p>
+          <p>{{ speaker.bio | markdownify }}</p>
         </div>
       </div>
       {% endfor %}
