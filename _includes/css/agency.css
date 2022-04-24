@@ -455,7 +455,8 @@ section h3.section-subheading {
 .speaker-caption {
     margin: 0 0;
     min-height: 100px;
-    min-width: 400px; 
+    width: 100%; 
+    overflow:
 }
 
 speaker-caption p {
