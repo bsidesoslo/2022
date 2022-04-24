@@ -2,6 +2,7 @@
 layout: talks
 title: Life in the Windows Kernel for Red Teams
 length: 45
+keynote: false
 card: LifeintheWindowsKernelforRedTeams.png
 speakers:
 - name: Andre Lima

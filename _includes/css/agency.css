@@ -403,16 +403,23 @@ section h3.section-subheading {
 
 #speakers .speaker-item .image, #keynote-speaker .image {
 	width: 100%;
-	height: 50vh;
-	background-position: center center;
+	height: 40vh;
+	background-position: center top;
 	background-size: cover;
+}
+
+@media(max-width:768px) {
+    #speakers .speaker-item .image, #keynote-speaker .image {
+        height: 50vh;
+        background-position: center top;
+    }
 }
 
 #keynote-speaker .image{
     position: relative;
 }
 
-#keynote-speaker .image .keynote_overlay{
+#keynote-speaker .image .keynote-overlay{
     height: 20%;
     width: 100%;
     position: absolute;
@@ -425,12 +432,25 @@ section h3.section-subheading {
     font-size: 2em;
 }
 
-#keynote-speaker .image .keynote_overlay b {
+#keynote-speaker .image .keynote-overlay b {
     position: relative;
     top: 25%;
     margin-left: 2%;
 }
 
+@media(max-width: 768px){
+
+    #keynote-speaker .image .keynote-overlay b {
+        position: relative;
+        top: 10%;
+        margin-left: 2%;
+    }
+    
+
+    #keynote-speaker .image .keynote-overlay{
+        height:  15%;
+    }
+}
 
 .speaker-caption {
     margin: 0 0;
@@ -701,7 +721,7 @@ body {
 }
 .row.sponsors-list {
         display: flex;
-	margin-bottom: 10%;
+	    margin-bottom: 10%;
         align-items: center;
         text-align: center;
 }
@@ -739,5 +759,5 @@ section h3.section-subheading.sponsor-tier {
 }
 
 section#conference div.row{
-    margin-top:40px;
+    margin-top: 40px;
 }

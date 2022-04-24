@@ -2,6 +2,7 @@
 layout: talks
 title: OTP Stealing via SS7 Hacking
 length: 20
+keynote: false
 card: OTPStealingviaSS7Hacking.png
 speakers:
 - name: Utku YILDIRIM

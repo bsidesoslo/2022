@@ -2,6 +2,7 @@
 layout: talks
 title: Disrupting Nation States and Cyber Criminals with Attack Surface Management
 length: 45
+keynote: false
 card: DisruptingNationStatesandCyberCriminalswithAttackSurfaceManagement.png
 speakers:
 - name: Chris Dale

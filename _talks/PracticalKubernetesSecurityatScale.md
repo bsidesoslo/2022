@@ -2,6 +2,7 @@
 layout: talks
 title: Practical Kubernetes Security at Scale
 length: 45
+keynote: false
 card: PracticalKubernetesSecurityatScale.png
 speakers:
 - name: Birgir Stefansson
