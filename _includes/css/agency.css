@@ -374,7 +374,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: rgba(135,27,166, .9);
 }
 
 #speaker .speaker-item .speaker-link .speaker-hover:hover {
@@ -425,7 +425,7 @@ section h3.section-subheading {
     position: absolute;
     bottom: 0;
     color: #fff;
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .6);
+    background: rgba(135,27,166, .6);
     margin: 0;
     padding: 0;
     font-family: {{ site.data.template.font.primary }};
