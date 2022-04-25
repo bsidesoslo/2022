@@ -13,4 +13,4 @@ speakers:
     She is a board member of the Norwegian Online News Association, runs [@journalistandspy](https://www.instagram.com/journalistandspy/) on Instagram, and tweets as [@runasand](https://twitter.com/runasand).
 
 ---
-This talk does not have a synopsis yet, please check back later.
+The keynote does not have a synopis yet.
