@@ -1,5 +1,4 @@
 # Bsides Oslo 2022
-Temporary website for BSides Oslo 2022
 
 ## Changing the scheduele
 
@@ -18,6 +17,7 @@ title: <Title of talk>
 length: <Length of talk as integer>
 card: <Name of the card in img/speakers/twittercards>
 scheduled: <OPTIONAL: Used when program is ready>
+keynote: false (true if actually keynote)
 video: <OPTIONAL: Used when presentation is uploaded to YouTube>
 speakers:
 - name: <Name of speakers>
