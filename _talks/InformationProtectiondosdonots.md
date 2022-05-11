@@ -16,5 +16,5 @@ This talk focuses on getting started with Information Protection in general term
 
 Aiming to be technology agnostic, what do businesses/organisations need to be aware of? what are the pitfalls and "easy wins"? 
 
-The talk finishes with a brief guide on "getting started"    
+The talk finishes with a brief guide on "getting started".
 
