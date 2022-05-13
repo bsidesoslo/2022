@@ -52,4 +52,9 @@ community:
 - name: Nasjonal sikkerhetsmyndighet
   logo: NSM.png
   url: https://nsm.no/
-  
+- name: Entur
+  logo: Entur.png
+  url: https://om.entur.no/bedrift/
+- name: Palo Alto Networks
+  logo: PaloAltoNetworks.png
+  url: https://www.paloaltonetworks.com/
