@@ -711,20 +711,25 @@ body {
 
 /* Sponsors */
 
-.row.sponsors-list img{
-        width: 100%;
+.row.sponsor-list img{
+        max-height: 20vh;
+        max-width: 100%;
+        width: auto;
+        height: auto;
 }
 
-@media(min-width:768px){
-  .row.sponsors-list img{
-      width: 70%;
-  }
+.row.sponsor-list > div{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: center;
+    
 }
-.row.sponsors-list {
-        display: flex;
-	    margin-bottom: 10%;
-        align-items: center;
-        text-align: center;
+@media (max-width: 768px){
+    .row.sponsor-list img{
+        max-height: 18vh;
+    }
+
 }
 
 section h3.section-subheading.sponsor-tier {
