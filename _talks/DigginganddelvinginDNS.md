@@ -3,6 +3,7 @@ layout: talks
 title: Digging and delving in DNS
 length: 20
 keynote: false
+scheduled: "15:20"
 card: DiggingAndDelvinginDNS.png
 speakers:
 - name: Barry Irwin

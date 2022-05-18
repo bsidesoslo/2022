@@ -3,6 +3,7 @@ layout: talks
 title: Information Protection - do's, do nots and "WTF we don't want a Datatilsynet fine!
 length: 20
 keynote: false
+scheduled: "12:45"
 card: InformationProtectiondosanddonots.png
 speakers:
 - name: Anthony Brown

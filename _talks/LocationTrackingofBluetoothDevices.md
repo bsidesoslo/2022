@@ -3,6 +3,7 @@ layout: talks
 title: Location Tracking of Bluetooth Devices
 length: 20
 keynote: false
+scheduled: "15:00"
 card: LocationTrackingofBluetoothDevices.png
 speakers:
 - name: Bjørn Martin Hegnes

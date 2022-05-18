@@ -3,6 +3,7 @@ layout: talks
 title: I will IDOR myself in
 length: 45
 keynote: false
+scheduled: "10:05"
 card: IwillIDORmyselfin.png
 speakers:
 - name: Vangelis Stykas

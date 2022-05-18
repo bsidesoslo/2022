@@ -3,6 +3,7 @@ layout: talks
 title: A humble, yet agile 4-step framework for operational CTI
 length: 20
 keynote: false
+scheduled: "13:05"
 card: AHumbleyetAgile4StepFrameworkforOperationalCTI.png
 speakers:
 - name: Lorena Carthy-Wilmot

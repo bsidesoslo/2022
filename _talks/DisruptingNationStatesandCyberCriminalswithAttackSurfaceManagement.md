@@ -2,6 +2,7 @@
 layout: talks
 title: Disrupting Nation States and Cyber Criminals with Attack Surface Management
 length: 45
+scheduled: "15:55"
 keynote: false
 card: DisruptingNationStatesandCyberCriminalswithAttackSurfaceManagement.png
 speakers:

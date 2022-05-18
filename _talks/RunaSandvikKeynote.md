@@ -4,6 +4,7 @@ permalink: talks/RunaSandvikKeynote.html
 title: Why I Love Defensive Work, Why I Don't Love Defensive Work
 length: 45
 keynote: true
+scheduled: "09:10"
 card: RunaSandvikKeynoteSpeaker.png
 speakers:
 - name: Runa Sandvik
