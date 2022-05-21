@@ -767,3 +767,18 @@ section h3.section-subheading.sponsor-tier {
 section#conference div.row{
     margin-top: 40px;
 }
+
+.map-holder {
+    background-position: 50% 0%; 
+    background-image: url("img/BSides2022_Map.png");
+    background-repeat:  no-repeat;
+    height: 392px;
+}
+
+.map-holder p{
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 5px;
+}
