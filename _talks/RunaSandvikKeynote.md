@@ -5,6 +5,7 @@ title: Why I Love Defensive Work, Why I Don't Love Defensive Work
 length: 45
 keynote: true
 scheduled: "09:10"
+video: https://www.youtube.com/watch?v=t4JckRiXnz8
 card: RunaSandvikKeynoteSpeaker.png
 speakers:
 - name: Runa Sandvik

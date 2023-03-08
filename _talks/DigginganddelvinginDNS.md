@@ -5,6 +5,7 @@ length: 20
 keynote: false
 scheduled: "15:20"
 card: DiggingAndDelvinginDNS.png
+video: https://www.youtube.com/watch?v=4rbPPgi8gOg
 speakers:
 - name: Barry Irwin
   image: BarryIrwin.jpg

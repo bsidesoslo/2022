@@ -5,6 +5,7 @@ length: 45
 keynote: false
 scheduled: "11:00"
 card: LifeintheWindowsKernelforRedTeams.png
+video: https://www.youtube.com/watch?v=Yc5NULFmRwk
 speakers:
 - name: Andre Lima
   image: AndreLima.jpg

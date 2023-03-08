@@ -5,6 +5,7 @@ length: 20
 keynote: false
 scheduled: "13:05"
 card: AHumbleyetAgile4StepFrameworkforOperationalCTI.png
+video: https://www.youtube.com/watch?v=_Swwop0rKck
 speakers:
 - name: Lorena Carthy-Wilmot
   image: LorenaCarthy-Wilmot.jpg

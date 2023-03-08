@@ -5,6 +5,7 @@ length: 20
 keynote: false
 scheduled: "12:45"
 card: InformationProtectiondosanddonots.png
+video: https://www.youtube.com/watch?v=svjeqcAVibA
 speakers:
 - name: Anthony Brown
   image: AnthonyBrown.jpg
